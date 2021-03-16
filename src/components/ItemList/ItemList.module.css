@@ -1,0 +1,31 @@
+.list {
+  width: 650px;
+  padding-left: 5px;
+  list-style-type: none;
+}
+
+.li {
+  border-bottom: 1px solid #f5f5f5 ;
+}
+
+.li:last-child {
+  border-bottom: 1px solid #000 ;
+}
+
+.image {
+  padding-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+  .list {
+    width: 91%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .list {
+    width: 280px;
+  }
+}
